@@ -188,7 +188,7 @@ section { padding: 90px 6%; }
 #services { background: var(--bg); }
 .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .service-card {
-  background: white; border-radius: 16px; overflow: hidden;
+  background: white !important; border-radius: 16px; overflow: hidden;
   border: 1px solid var(--border); transition: all 0.3s; cursor: pointer;
 }
 .service-card:hover { transform: translateY(-6px); box-shadow: 0 16px 40px rgba(37,99,235,0.12); border-color: var(--blue); }
@@ -204,13 +204,13 @@ section { padding: 90px 6%; }
 .service-body { padding: 22px; }
 
 .service-icon-box {
-  width: 74px; height: 74px;
+  width: 90px; height: 90px;
   display: flex; align-items: center; justify-content: center;
   background: var(--blue-light);
-  border-radius: 18px;
-  font-size: 2.1rem;
+  border-radius: 20px;
+  font-size: 3rem;
   color: var(--blue);
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   transition: transform 0.3s;
 }
 .service-card:hover .service-icon-box { transform: scale(1.1); }
