@@ -210,6 +210,22 @@ section { padding: 90px 6%; }
 .service-card:first-child .service-img { opacity: 0.9; }
 
 .service-body { padding: 22px; }
+
+.service-icon-box {
+  width: 58px; height: 58px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--blue-light);
+  border-radius: 16px;
+  font-size: 1.55rem;
+  color: var(--blue);
+  margin-bottom: 16px;
+  transition: transform 0.3s;
+}
+.service-card:hover .service-icon-box { transform: scale(1.1); }
+.service-card:first-child .service-icon-box {
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
 .service-tag {
   display: inline-block; background: var(--blue-light); color: var(--blue);
   font-size: 0.7rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
